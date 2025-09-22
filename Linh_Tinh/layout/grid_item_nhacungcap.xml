@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTenCongTy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Tên Công Ty" />
+
+    <TextView
+        android:id="@+id/tvDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ" />
+
+    <TextView
+        android:id="@+id/tvDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điện thoại" />
+
+</LinearLayout>
